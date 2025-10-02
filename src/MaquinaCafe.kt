@@ -61,7 +61,7 @@ open class MaquinaCafe {
      * @param -> valorProducto Precio del café en euros.
      * @param -> marca del café a servir.
      */
-    fun seleccionarProducto(valorProducto: Double, marca: String = "CAFÉ") {
+    fun seleccionarProducto(valorProducto: Double, marca: String = "MILKAFÉ") {
         if (estadoActual !is EstadoMaquinaCafe.SeleccionandoProducto) {
             println("ERROR: DEBES ESTAR EN 'SeleccionandoProducto'. TU ESTADO: $estadoActual")
             return
