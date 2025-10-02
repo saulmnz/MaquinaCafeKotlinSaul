@@ -106,7 +106,7 @@ open class MaquinaCafe {
      */
     protected open fun servirCafe(marca: String, recipiente: String) {
         println("SIRVIENDO CAFÉ... ¡ NO LO JUNTES CON UN SIGARRO jjj !")
-        estadoActual = EstadoMaquinaCafe.SirviendoCafe(marca, cupType)
+        estadoActual = EstadoMaquinaCafe.SirviendoCafe(marca, recipiente)
     }
 
     /**
@@ -135,7 +135,7 @@ class MaquinaCafePremium : MaquinaCafe() {
     /**
      * Sobrescribe el método servirCafe para utilizar una taza de cerámica diferente "premium".
      */
-    override fun servirCafe(marca: String, cupType: String) {
+    override fun servirCafe(marca: String, recipiente: String) {
         super.servirCafe(marca, "TAZA CERÁMICA PREMIUM")
     }
 }
