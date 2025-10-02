@@ -12,4 +12,4 @@ El proyecto **máquina de café** utiliza el patrón **máquina de estados**, co
 
 ## Diagrama de Estados
 
-![Máquina de café](Diagrama_estados.jpg)
+![Máquina de café](diagrama_estados.jpg)
