@@ -1,6 +1,6 @@
 # ☕ Máquina de Café ☕
 
-El proyecto **máquina de café** utiliza el patrón **máquina de estados**, con clases selladas, herencia y transiciones.  
+> ℹ️ El proyecto **máquina de café** utiliza el patrón **máquina de estados**, con clases selladas, herencia y transiciones.  
 
 ## Características 🧠
 
