@@ -12,14 +12,4 @@ El proyecto **máquina de café** utiliza el patrón **máquina de estados**, co
 
 ## Diagrama de Estados
 
-```mermaid
-stateDiagram-v2
-    [*] --> Apagada
-    Apagada --> SeleccionandoProducto : encender()
-    SeleccionandoProducto --> SeleccionandoProducto : insertarCredito()
-    SeleccionandoProducto --> PreparandoCafe : seleccionarProducto() (crédito ≥ precio)
-    SeleccionandoProducto --> Error : seleccionarProducto() (crédito < precio)
-    PreparandoCafe --> SirviendoCafe : prepararCafe() (éxito)
-    PreparandoCafe --> Error : fallo en preparación
-    SirviendoCafe --> Apagada : apagar() / reset()
-    Error --> Apagada : reset()
+![Máquina de café](Diagrama estados.jpg)
